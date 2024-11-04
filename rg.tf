@@ -14,3 +14,7 @@ resource "azurerm_resource_group" "rg3" {
   name = "ap_r2"
   location = "westus"
 }
+resource "azurerm_resource_group" "rg4" {
+  name = "ap_r3"
+  location = "westus"
+}
